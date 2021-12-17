@@ -1,25 +1,30 @@
 body {
     background-color: rgb(236, 236, 234);
-  }
-  
-  main {
+}
+
+main {
     background-color: rgb(236, 215, 186);
     font-family: 'David Libre', serif;
-  }
-  
-  .container {
+}
+
+.container {
     background-color: rgb(186, 238, 186);
     width: 870px;
-    margin-right: auto;
-    margin-left: auto;
-  }
-  
-  .top-song {
+    margin: 0 auto;
+}
+
+.top-song {
     background-color: rgb(213, 180, 243);
-  }
-  
-  .see-all {
+}
+
+.see-all {
     display: flex;
     flex-direction: row;
     justify-content: flex-start;
-  }
+}
+
+.menu {
+    background-color: rgb(241, 143, 143);
+    width: 500px;
+    margin: 0 auto;
+}
