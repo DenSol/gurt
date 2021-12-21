@@ -1,60 +1,83 @@
-body {
-    background-color: rgb(236, 236, 234);
-    font-family: 'David Libre', serif;
-}
-
-main {
-    background-color: rgb(236, 215, 186);
-}
-
-.container {
-    background-color: rgb(186, 238, 186);
-    width: 870px;
-    margin: 0 auto;
-}
-
-.top-song {
-    background-color: rgb(213, 180, 243);
-}
-
-.menu {
-    background-color: rgb(241, 143, 143);
-    width: 870px;
-    margin: 0 auto;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    align-items: center;
-}
-
-.music_menu {
-    text-decoration: none;
-}
-
-.stihi_menu {
-    text-decoration: none;
-}
-
-.news_menu {
-    text-decoration: none;
-}
-
-.title-line {
-    background-color: rgb(186, 238, 186);
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
-}
-
-.title-l {
-    text-decoration: none;
-    margin: 0 20px;
-    padding: 0;
-}
-
-.see-all {
-    text-decoration: none;
-    margin: 0 20px;
-    color: rgb(248, 1, 1);
-}
+                        body {
+                            background-color: #d7e1ec;
+                            font-family: 'David Libre', serif;
+                        }
+                        
+                        main {
+                            background-color: #eaf3ff;
+                        }
+                        
+                        .container {
+                            width: 870px;
+                            margin: 0 auto;
+                        }
+                        
+                        a:link {
+                            font-size: 16px;
+                            color: rgb(67, 12, 219)
+                        }
+                        
+                        a:visited {
+                            font-size: 16px;
+                            color: rgb(100, 2, 2)
+                        }
+                        
+                        .menu {
+                            background-color: rgb(232, 237, 253);
+                            color: rgb(3, 1, 15);
+                            width: 870px;
+                            height: 30px;
+                            margin: 0 auto;
+                            display: flex;
+                            flex-direction: row;
+                            justify-content: space-around;
+                            align-items: center;
+                            border-style: solid;
+                            border-color: rgb(131, 119, 199);
+                            border-width: thin;
+                        }
+                        
+                        .vesna {
+                            text-decoration: none;
+                        }
+                        
+                        .more {
+                            text-decoration: none;
+                        }
+                        
+                        .gorod {
+                            text-decoration: none;
+                        }
+                        
+                        .zima {
+                            text-decoration: none;
+                        }
+                        
+                        .dojd {
+                            text-decoration: none;
+                        }
+                        
+                        .kartina {
+                            text-decoration: none;
+                        }
+                        
+                        .title-l {
+                            color: rgb(95, 15, 15);
+                            text-decoration: none;
+                            text-align: center;
+                            margin: 0 auto;
+                        }
+                        
+                        .text {
+                            display: flex;
+                            flex-direction: row;
+                            justify-content: space-around;
+                            background-color: rgb(232, 237, 253);
+                            border-style: solid;
+                            border-color: rgb(131, 119, 199);
+                            border-width: thin;
+                        }
+                        
+                        .spring {
+                            align-self: center;
+                        }
