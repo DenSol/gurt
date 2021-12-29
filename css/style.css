@@ -1,6 +1,6 @@
                         body {
                             background-color: #ffffff;
-                            font-family: 'David Libre', serif;
+                            font-family: 'Roboto', sans-serif;
                         }
                         
                         main {
@@ -64,6 +64,7 @@
                         .title-l {
                             color: rgb(44, 43, 43);
                             text-decoration: none;
+                            font-family: 'Shizuru', cursive;
                             text-align: center;
                             margin: 0 auto;
                         }
@@ -76,6 +77,7 @@
                             border-style: solid;
                             border-color: rgb(139, 138, 146);
                             border-width: thin;
+                            font-family: 'Licorice', cursive;
                         }
                         
                         .spring {
@@ -126,6 +128,7 @@
                     .text {
                         display: flex;
                         flex-direction: column;
+                        margin: 0 auto;
                     }
 
                     .title-l{
