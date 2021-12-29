@@ -101,8 +101,8 @@
                     }
                     .copyright {
                         margin: 0 auto;
-                        padding: 10px;
                         font-size: 14px;
+                        padding-top: 10px;
                         color: rgb(151, 149, 149);
                      
                     }
@@ -111,3 +111,27 @@
                         font-size: 11px;
                         color: rgb(151, 149, 149);
                     }
+
+                    @media screen and (max-width: 600px){
+
+                        .menu {
+                    height: auto;
+                    width: auto;
+                        }
+
+                    .spring {
+                        align-self: auto;   
+                    }
+
+                    .text {
+                        display: flex;
+                        flex-direction: column;
+                    }
+
+                    .title-l{
+                        text-align: left;
+                    }
+                    footer {
+                        width: auto;
+                    }
+                }
