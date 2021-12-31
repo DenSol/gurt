@@ -54,6 +54,7 @@
                             display: flex;
                             flex-direction: row;
                             justify-content: space-around;
+                            align-items: center;
                             background-color: rgb(243, 243, 243);
                             border-style: solid;
                             border-color: rgb(139, 138, 146);
@@ -62,7 +63,6 @@
                         }
                         
                         .cartoon {
-                            align-self: center;
                             animation: grow 5s infinite;
                         }
 
@@ -102,17 +102,17 @@
                     width: auto;
                         }
 
-                    .cartoon {
-                        align-self: auto;   
-                    }
 
                     .text {
                         display: flex;
                         flex-direction: column;
-                        margin: 0 auto;
+                        justify-content: flex-start;
+                        align-items: flex-start;
+                        padding: 0 15px;
                     }
 
                     .title-l{
+                        padding: 0 15px;
                         text-align: left;
                     }
                     footer {
