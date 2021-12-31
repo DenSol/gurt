@@ -12,16 +12,6 @@
                             margin: 0 auto;
                         }
                         
-                        a:link {
-                            font-size: 16px;
-                            color: rgb(226, 226, 226);
-                        }
-                        
-                        a:visited {
-                            font-size: 16px;
-                            color: rgb(151, 149, 149);
-                        }
-                        
                         .menu {
                             background-color: rgb(51, 49, 49);
                             color: rgb(128, 128, 128);
@@ -35,6 +25,13 @@
                             border-style: solid;
                             border-color: rgb(139, 138, 146);
                             border-width: thin;
+                            cursor: pointer;
+                        }
+
+                        .menu:hover {
+                            background: rgb(128, 128, 128);
+                            color: rgb(0, 0, 0);
+                            border-color: rgb(0, 0, 0);
                         }
                         
                         .vesna {
@@ -67,6 +64,7 @@
                             font-family: 'Shizuru', cursive;
                             text-align: center;
                             margin: 0 auto;
+                            animation: color-change 5s infinite;
                         }
                         
                         .text {
@@ -92,9 +90,8 @@
                           
                     .network {
                         background-color: rgb(51, 49, 49);
-                        text-align: center;
-                      
-                    }
+                        text-align: center;}
+                        
                     .down{
                       background-color: rgb(51, 49, 49);  
                       margin: 0 auto;
@@ -137,4 +134,10 @@
                     footer {
                         width: auto;
                     }
+                }
+
+                @keyframes color-change {
+                    0% { color: rgb(202, 114, 114); }
+                    50% { color: rgb(94, 94, 206); }
+                    100% { color: rgb(117, 155, 161); }
                 }
