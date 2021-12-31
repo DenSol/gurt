@@ -14,7 +14,6 @@
                         
                         .menu {
                             background-color: rgb(51, 49, 49);
-                            color: rgb(128, 128, 128);
                             width: 870px;
                             height: 30px;
                             margin: 0 auto;
@@ -28,34 +27,18 @@
                             cursor: pointer;
                         }
 
-                        .menu:hover {
-                            background: rgb(128, 128, 128);
+                        a {
+                            color: rgb(128, 128, 128);
+                            text-decoration: none;  
+                        }
+
+                        a:hover{
                             color: rgb(0, 0, 0);
+                        }
+
+                        .menu:hover {
+                            background: rgb(206, 205, 205);
                             border-color: rgb(0, 0, 0);
-                        }
-                        
-                        .vesna {
-                            text-decoration: none;
-                        }
-                        
-                        .more {
-                            text-decoration: none;
-                        }
-                        
-                        .gorod {
-                            text-decoration: none;
-                        }
-                        
-                        .zima {
-                            text-decoration: none;
-                        }
-                        
-                        .dojd {
-                            text-decoration: none;
-                        }
-                        
-                        .kartina {
-                            text-decoration: none;
                         }
                         
                         .title-l {
@@ -64,7 +47,7 @@
                             font-family: 'Shizuru', cursive;
                             text-align: center;
                             margin: 0 auto;
-                            animation: color-change 5s infinite;
+                            animation: color-change 3s infinite;
                         }
                         
                         .text {
@@ -78,8 +61,9 @@
                             font-family: 'Licorice', cursive;
                         }
                         
-                        .spring {
+                        .cartoon {
                             align-self: center;
+                            animation: grow 5s infinite;
                         }
 
                         footer  {
@@ -91,7 +75,7 @@
                     .network {
                         background-color: rgb(51, 49, 49);
                         text-align: center;}
-                        
+
                     .down{
                       background-color: rgb(51, 49, 49);  
                       margin: 0 auto;
@@ -118,7 +102,7 @@
                     width: auto;
                         }
 
-                    .spring {
+                    .cartoon {
                         align-self: auto;   
                     }
 
@@ -140,4 +124,15 @@
                     0% { color: rgb(202, 114, 114); }
                     50% { color: rgb(94, 94, 206); }
                     100% { color: rgb(117, 155, 161); }
+                }
+                @keyframes grow {
+                    0% {
+                        transform: scale3d(1, 1, 1);
+                    }
+                    50% {
+                        transform: scale3d(0.8, 0.8, 0.8);
+                    }
+                    100% {
+                        transform: scale3d(1, 1, 1);
+                    }
                 }
